@@ -1,0 +1,22 @@
+image_size: [128, 128]
+random_seed: 42
+
+paths:
+  raw_dir: data/raw
+  processed_dir: data/processed
+  consent_log: consent/consent_log.csv
+  manifest: data/metadata.csv
+  processed_manifest: data/processed_manifest.csv
+  model: models/classifier.joblib
+  label_map: models/label_map.json
+  metrics: reports/metrics.json
+  confusion_matrix: reports/figures/confusion_matrix.png
+
+model:
+  c_value: 10.0
+  unknown_probability_threshold: 0.55
+
+collection:
+  camera_index: 0
+  target_images_per_session: 40
+  capture_interval_seconds: 0.15
