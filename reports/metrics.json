@@ -1,61 +1,445 @@
 {
   "validation": {
-    "balanced_accuracy": 1.0,
+    "balanced_accuracy": 0.6760673181964842,
     "classification_report": {
-      "Person_Hamza": {
+      "Akshay Kumar": {
+        "precision": 0.8888888888888888,
+        "recall": 1.0,
+        "f1-score": 0.9411764705882353,
+        "support": 8.0
+      },
+      "Alexandra Daddario": {
+        "precision": 0.6666666666666666,
+        "recall": 0.8333333333333334,
+        "f1-score": 0.7407407407407407,
+        "support": 12.0
+      },
+      "Alia Bhatt": {
+        "precision": 0.6,
+        "recall": 0.375,
+        "f1-score": 0.46153846153846156,
+        "support": 8.0
+      },
+      "Amitabh Bachchan": {
+        "precision": 0.8333333333333334,
+        "recall": 0.8333333333333334,
+        "f1-score": 0.8333333333333334,
+        "support": 12.0
+      },
+      "Andy Samberg": {
+        "precision": 0.7058823529411765,
+        "recall": 0.8571428571428571,
+        "f1-score": 0.7741935483870968,
+        "support": 14.0
+      },
+      "Anushka Sharma": {
+        "precision": 0.5,
+        "recall": 0.4,
+        "f1-score": 0.4444444444444444,
+        "support": 10.0
+      },
+      "Bilal_Mukhtar": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 1.0
+      },
+      "Billie Eilish": {
+        "precision": 0.7333333333333333,
+        "recall": 0.9166666666666666,
+        "f1-score": 0.8148148148148148,
+        "support": 12.0
+      },
+      "Brad Pitt": {
+        "precision": 0.6956521739130435,
+        "recall": 0.7619047619047619,
+        "f1-score": 0.7272727272727273,
+        "support": 21.0
+      },
+      "Camila Cabello": {
+        "precision": 0.8571428571428571,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.75,
+        "support": 9.0
+      },
+      "Charlize Theron": {
+        "precision": 0.5833333333333334,
+        "recall": 0.5833333333333334,
+        "f1-score": 0.5833333333333334,
+        "support": 12.0
+      },
+      "Claire Holt": {
+        "precision": 0.5454545454545454,
+        "recall": 0.5454545454545454,
+        "f1-score": 0.5454545454545454,
+        "support": 11.0
+      },
+      "Courtney Cox": {
+        "precision": 1.0,
+        "recall": 0.2,
+        "f1-score": 0.3333333333333333,
+        "support": 10.0
+      },
+      "Dwayne Johnson": {
+        "precision": 0.7,
+        "recall": 0.7777777777777778,
+        "f1-score": 0.7368421052631579,
+        "support": 9.0
+      },
+      "Elizabeth Olsen": {
+        "precision": 0.6,
+        "recall": 0.8181818181818182,
+        "f1-score": 0.6923076923076923,
+        "support": 11.0
+      },
+      "Ellen Degeneres": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 12.0
+      },
+      "Hamza_saeed": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 34.0
+      },
+      "Henry Cavill": {
+        "precision": 0.7222222222222222,
+        "recall": 0.8125,
+        "f1-score": 0.7647058823529411,
+        "support": 16.0
+      },
+      "Hrithik Roshan": {
+        "precision": 0.6666666666666666,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.6666666666666666,
+        "support": 15.0
+      },
+      "Hugh Jackman": {
+        "precision": 0.6818181818181818,
+        "recall": 0.7894736842105263,
+        "f1-score": 0.7317073170731707,
+        "support": 19.0
+      },
+      "Jessica Alba": {
+        "precision": 0.75,
+        "recall": 0.9230769230769231,
+        "f1-score": 0.8275862068965517,
+        "support": 13.0
+      },
+      "Kashyap": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 1.0
+      },
+      "Lisa Kudrow": {
+        "precision": 0.8,
+        "recall": 0.8,
+        "f1-score": 0.8,
+        "support": 10.0
+      },
+      "Margot Robbie": {
+        "precision": 0.6666666666666666,
+        "recall": 0.6,
+        "f1-score": 0.631578947368421,
+        "support": 10.0
+      },
+      "Marmik": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 1.0
+      },
+      "Mubbashar_baig": {
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
         "support": 4.0
       },
-      "Person_bilal": {
-        "precision": 1.0,
-        "recall": 1.0,
-        "f1-score": 1.0,
-        "support": 8.0
+      "Natalie Portman": {
+        "precision": 0.5789473684210527,
+        "recall": 0.6470588235294118,
+        "f1-score": 0.6111111111111112,
+        "support": 17.0
       },
-      "accuracy": 1.0,
-      "macro avg": {
+      "Priyanka Chopra": {
+        "precision": 0.9285714285714286,
+        "recall": 0.9285714285714286,
+        "f1-score": 0.9285714285714286,
+        "support": 14.0
+      },
+      "Robert Downey Jr": {
+        "precision": 0.7692307692307693,
+        "recall": 0.625,
+        "f1-score": 0.6896551724137931,
+        "support": 16.0
+      },
+      "Roger Federer": {
+        "precision": 0.8333333333333334,
+        "recall": 0.5,
+        "f1-score": 0.625,
+        "support": 10.0
+      },
+      "Tom Cruise": {
         "precision": 1.0,
-        "recall": 1.0,
-        "f1-score": 1.0,
-        "support": 12.0
+        "recall": 0.7777777777777778,
+        "f1-score": 0.875,
+        "support": 9.0
+      },
+      "Vijay Deverakonda": {
+        "precision": 0.8181818181818182,
+        "recall": 0.9473684210526315,
+        "f1-score": 0.8780487804878049,
+        "support": 19.0
+      },
+      "Virat Kohli": {
+        "precision": 0.6666666666666666,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.6666666666666666,
+        "support": 6.0
+      },
+      "Zac Efron": {
+        "precision": 0.8461538461538461,
+        "recall": 0.7333333333333333,
+        "f1-score": 0.7857142857142857,
+        "support": 15.0
+      },
+      "accuracy": 0.7581047381546134,
+      "macro avg": {
+        "precision": 0.6952396015570539,
+        "recall": 0.6760673181964842,
+        "f1-score": 0.6723764122392577,
+        "support": 401.0
       },
       "weighted avg": {
-        "precision": 1.0,
-        "recall": 1.0,
-        "f1-score": 1.0,
-        "support": 12.0
+        "precision": 0.7617558759038918,
+        "recall": 0.7581047381546134,
+        "f1-score": 0.7481389538210138,
+        "support": 401.0
       }
     }
   },
   "test": {
-    "balanced_accuracy": 1.0,
+    "balanced_accuracy": 0.6889080674126659,
     "classification_report": {
-      "Person_Hamza": {
+      "Akshay Kumar": {
+        "precision": 0.5454545454545454,
+        "recall": 0.75,
+        "f1-score": 0.631578947368421,
+        "support": 8.0
+      },
+      "Alexandra Daddario": {
+        "precision": 0.6666666666666666,
+        "recall": 0.8333333333333334,
+        "f1-score": 0.7407407407407407,
+        "support": 12.0
+      },
+      "Alia Bhatt": {
+        "precision": 0.8,
+        "recall": 0.5,
+        "f1-score": 0.6153846153846154,
+        "support": 8.0
+      },
+      "Amitabh Bachchan": {
+        "precision": 0.9090909090909091,
+        "recall": 0.8333333333333334,
+        "f1-score": 0.8695652173913043,
+        "support": 12.0
+      },
+      "Andy Samberg": {
+        "precision": 0.9333333333333333,
+        "recall": 1.0,
+        "f1-score": 0.9655172413793104,
+        "support": 14.0
+      },
+      "Anushka Sharma": {
+        "precision": 0.6666666666666666,
+        "recall": 0.8,
+        "f1-score": 0.7272727272727273,
+        "support": 10.0
+      },
+      "Bilal_Mukhtar": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 1.0
+      },
+      "Billie Eilish": {
+        "precision": 0.7692307692307693,
+        "recall": 0.8333333333333334,
+        "f1-score": 0.8,
+        "support": 12.0
+      },
+      "Brad Pitt": {
+        "precision": 0.5142857142857142,
+        "recall": 0.8571428571428571,
+        "f1-score": 0.6428571428571429,
+        "support": 21.0
+      },
+      "Camila Cabello": {
+        "precision": 0.8571428571428571,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.75,
+        "support": 9.0
+      },
+      "Charlize Theron": {
+        "precision": 0.9,
+        "recall": 0.75,
+        "f1-score": 0.8181818181818182,
+        "support": 12.0
+      },
+      "Claire Holt": {
+        "precision": 0.5384615384615384,
+        "recall": 0.6363636363636364,
+        "f1-score": 0.5833333333333334,
+        "support": 11.0
+      },
+      "Courtney Cox": {
+        "precision": 0.8333333333333334,
+        "recall": 0.5,
+        "f1-score": 0.625,
+        "support": 10.0
+      },
+      "Dwayne Johnson": {
+        "precision": 0.7142857142857143,
+        "recall": 0.5555555555555556,
+        "f1-score": 0.625,
+        "support": 9.0
+      },
+      "Elizabeth Olsen": {
+        "precision": 0.7692307692307693,
+        "recall": 0.9090909090909091,
+        "f1-score": 0.8333333333333334,
+        "support": 11.0
+      },
+      "Ellen Degeneres": {
+        "precision": 0.7333333333333333,
+        "recall": 0.9166666666666666,
+        "f1-score": 0.8148148148148148,
+        "support": 12.0
+      },
+      "Hamza_saeed": {
+        "precision": 1.0,
+        "recall": 0.07692307692307693,
+        "f1-score": 0.14285714285714285,
+        "support": 13.0
+      },
+      "Henry Cavill": {
+        "precision": 0.6666666666666666,
+        "recall": 0.75,
+        "f1-score": 0.7058823529411765,
+        "support": 16.0
+      },
+      "Hrithik Roshan": {
+        "precision": 0.8571428571428571,
+        "recall": 0.8,
+        "f1-score": 0.8275862068965517,
+        "support": 15.0
+      },
+      "Hugh Jackman": {
+        "precision": 0.75,
+        "recall": 0.7894736842105263,
+        "f1-score": 0.7692307692307693,
+        "support": 19.0
+      },
+      "Jessica Alba": {
+        "precision": 0.6428571428571429,
+        "recall": 0.6923076923076923,
+        "f1-score": 0.6666666666666666,
+        "support": 13.0
+      },
+      "Kashyap": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 1.0
+      },
+      "Lisa Kudrow": {
+        "precision": 0.7777777777777778,
+        "recall": 0.7,
+        "f1-score": 0.7368421052631579,
+        "support": 10.0
+      },
+      "Margot Robbie": {
+        "precision": 0.7777777777777778,
+        "recall": 0.7,
+        "f1-score": 0.7368421052631579,
+        "support": 10.0
+      },
+      "Marmik": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 1.0
+      },
+      "Mubbashar_baig": {
         "precision": 1.0,
         "recall": 1.0,
         "f1-score": 1.0,
         "support": 4.0
       },
-      "Person_bilal": {
-        "precision": 1.0,
-        "recall": 1.0,
-        "f1-score": 1.0,
-        "support": 8.0
+      "Natalie Portman": {
+        "precision": 0.8235294117647058,
+        "recall": 0.8235294117647058,
+        "f1-score": 0.8235294117647058,
+        "support": 17.0
       },
-      "accuracy": 1.0,
-      "macro avg": {
+      "Priyanka Chopra": {
         "precision": 1.0,
-        "recall": 1.0,
-        "f1-score": 1.0,
-        "support": 12.0
+        "recall": 0.7142857142857143,
+        "f1-score": 0.8333333333333334,
+        "support": 14.0
+      },
+      "Robert Downey Jr": {
+        "precision": 0.6470588235294118,
+        "recall": 0.6875,
+        "f1-score": 0.6666666666666666,
+        "support": 16.0
+      },
+      "Roger Federer": {
+        "precision": 0.75,
+        "recall": 0.3,
+        "f1-score": 0.42857142857142855,
+        "support": 10.0
+      },
+      "Tom Cruise": {
+        "precision": 0.8571428571428571,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.75,
+        "support": 9.0
+      },
+      "Vijay Deverakonda": {
+        "precision": 0.6428571428571429,
+        "recall": 0.9473684210526315,
+        "f1-score": 0.7659574468085106,
+        "support": 19.0
+      },
+      "Virat Kohli": {
+        "precision": 0.6,
+        "recall": 0.5,
+        "f1-score": 0.5454545454545454,
+        "support": 6.0
+      },
+      "Zac Efron": {
+        "precision": 1.0,
+        "recall": 0.9333333333333333,
+        "f1-score": 0.9655172413793104,
+        "support": 15.0
+      },
+      "accuracy": 0.7368421052631579,
+      "macro avg": {
+        "precision": 0.7336272531774263,
+        "recall": 0.6889080674126659,
+        "f1-score": 0.6884563927986673,
+        "support": 380.0
       },
       "weighted avg": {
-        "precision": 1.0,
-        "recall": 1.0,
-        "f1-score": 1.0,
-        "support": 12.0
+        "precision": 0.7630675164189098,
+        "recall": 0.7368421052631579,
+        "f1-score": 0.7243560883624475,
+        "support": 380.0
       }
     }
   }

@@ -1,5 +1,6 @@
 image_size: [128, 128]
 random_seed: 42
+consent_required: false
 
 paths:
   raw_dir: data/raw

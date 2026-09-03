@@ -8,21 +8,32 @@ import cv2
 from utils import detect_single_face, face_features, get_detector, load_config, preprocess_face, project_path
 
 
+def resolve_raw_image_metadata(image_path: Path, raw_dir: Path) -> tuple[str, str]:
+    relative = image_path.relative_to(raw_dir)
+    parts = [part.strip() for part in relative.parts if part and part.strip()]
+    if len(parts) >= 3:
+        return parts[0], parts[1]
+    if len(parts) >= 2:
+        return parts[0], "session_01"
+    raise ValueError(f"Unsupported raw image structure: {image_path}")
+
+
 def main() -> None:
     cfg = load_config()
     raw_dir = project_path(cfg["paths"]["raw_dir"])
     processed_dir = project_path(cfg["paths"]["processed_dir"])
-    consented = __import__("utils").consented_ids(project_path(cfg["paths"]["consent_log"]))
+    consent_required = bool(cfg.get("consent_required", False))
+    consent_path = project_path(cfg["paths"]["consent_log"])
+    consented = __import__("utils").consented_ids(consent_path) if consent_required and consent_path.exists() else None
     size = tuple(cfg["image_size"])
     detector = get_detector()
     rows = []
     for image_path in sorted(raw_dir.rglob("*.jpg")) + sorted(raw_dir.rglob("*.png")):
-        relative = image_path.relative_to(raw_dir)
-        parts = relative.parts
-        if len(parts) < 3:
+        try:
+            participant_id, session_id = resolve_raw_image_metadata(image_path, raw_dir)
+        except ValueError:
             continue
-        participant_id, session_id = parts[0], parts[1]
-        if participant_id not in consented:
+        if consented is not None and participant_id not in consented:
             print(f"Skipping {image_path}: no active consent")
             continue
         image = cv2.imread(str(image_path))
