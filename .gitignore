@@ -2,16 +2,32 @@
 __pycache__/
 *.py[cod]
 .pytest_cache/
+*.log
 .env
+.env.*
 .DS_Store
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+secrets/
+credentials/
+config.local.*
 
 # Private biometric data and generated artifacts
-data/raw/*
-data/processed/*
-consent/*
-models/*
-reports/figures/*
+data/raw/
+data/processed/
+data/processed_manifest.csv
+data/metadata.csv
+consent/
+models/
+reports/
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 !models/.gitkeep
+!reports/.gitkeep
 !reports/figures/.gitkeep
+
+# Optional: keep a local example if you want one
+# !data/raw/example/.gitkeep
